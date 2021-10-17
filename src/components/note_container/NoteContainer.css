@@ -1,6 +1,12 @@
 .note-container {
     height: 100%;
   }
+
+  .note-container .header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
   
   .note-container h2 {
     margin-bottom: 20px;
@@ -8,8 +14,32 @@
   
   .note-container_notes {
     height: 90%;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
     flex-wrap: wrap;
     gap: 20px;
     overflow-y: scroll;
+
+    
   }
+
+  @media only screen and (max-width: 1060px) {
+    .note-container_notes {
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .note-container_notes {
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .note-container_notes {
+    grid-template-columns: repeat(1, minmax(200px, 1fr));
+    }
+  }
+  
+
+

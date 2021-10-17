@@ -1,7 +1,7 @@
 .note {
   padding: 15px;
   height: 280px;
-  width: 260px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   border-radius: 6px;

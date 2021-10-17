@@ -1,8 +1,9 @@
 .App {
   height: 100vh;
-  display: flex;
   gap: 20px;
   padding: 40px;
+  padding-left: 120px;
+  position: relative;
 }
 
 .custom-scroll::-webkit-scrollbar {
