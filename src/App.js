@@ -67,7 +67,6 @@ function App() {
     const tempNotes = [...note];
 
     const index = tempNotes.findIndex((item) => item.id === id);
-
     if (index < 0) return;
 
     tempNotes[index].text = text;
