@@ -13,7 +13,6 @@ function NoteContainer(props) {
     //     return notesArray
     // }
 
-
     // const notesRevered = reverse(props.notes);
 
 
