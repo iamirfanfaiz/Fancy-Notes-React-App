@@ -1,13 +1,25 @@
 .note {
-    padding: 25px;
-    height: 280px;
-    width: 260px;
-    display: flex;
-    flex-direction: column;
-    background-color: blueviolet;
-    border-radius: 30px;
+  padding: 15px;
+  height: 280px;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
   }
-  
+
+  .note .controls{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .date{
+    flex: 1 1;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(0 0 0 / 42%);
+  }
+
   .note_text {
     flex: 1;
     resize: none;

@@ -31,7 +31,8 @@ function App() {
     ]
     const month = monthName[currentdate.getMonth()];
 
-    const datetime = "Created Date: " + currentdate.getDate() + "/"
+    const datetime = 
+                + currentdate.getDate() + "/"
                 + month  + "/" 
                 + currentdate.getFullYear() + " @ "  
                 + currentdate.getHours() + ":"  
@@ -62,7 +63,6 @@ function App() {
 
   }
 
-
   const updateText = (text, id) => {
     const tempNotes = [...note];
 
@@ -72,7 +72,6 @@ function App() {
     tempNotes[index].text = text;
     setNote(tempNotes);
   }
-
 
   useEffect(() => {
 		const savedNotes = JSON.parse(
@@ -91,7 +90,6 @@ function App() {
 		);
 	}, [note]);
 
- 
   return (
     <div className="App">
       <SideMenu addNote={addNote}/>
