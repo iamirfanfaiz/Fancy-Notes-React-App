@@ -2,6 +2,6 @@
     max-width: 400px;
     width: 100%;
 }
-.search-group .search-text{
+.search-group .MuiFormControl-root{
     width: 100%;
 }

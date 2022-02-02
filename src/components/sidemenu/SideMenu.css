@@ -7,7 +7,7 @@
     left: 28px;
   }
   
-  .sidebar button {
+  /* .sidebar button {
     width: 60px;
     height: 60px;
     cursor: pointer;
@@ -16,7 +16,7 @@
     font-size: 40px;
     border-radius: 100%;
     border: 0;
-  }
+  } */
   
   .sidebar_list {
     display: flex;
